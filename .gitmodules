@@ -1,0 +1,6 @@
+[submodule "time-travel-backend"]
+	path = time-travel-backend
+	url = https://github.com/Majime-fukutsu/time-travel-backend
+[submodule "time-travel-frontend"]
+	path = time-travel-frontend
+	url = https://github.com/Majime-fukutsu/time-travel-frontend
