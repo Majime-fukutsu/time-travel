@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "真面目不屈 <abd.elbeltaji@skiff.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "scripts": {
+    "tauri": "tauri",
+    "start:frontend": "yarn --cwd time-travel-frontend dev",
+    "start:backend": "cargo run --manifest-path time-travel-backend/Cargo.toml",
+    "start": "node ./scripts/run-all start:*"
+  },
+  "devDependencies": {
+    "ps-tree": "^1.2.0",
+    "spawn-command": "^0.0.2-1"
+  }
 }
